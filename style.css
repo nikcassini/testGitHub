@@ -1,0 +1,66 @@
+.navbar-brand img {
+    width: 60px;
+}
+
+.navbar {
+    background-color: #BF9D8A !important;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    font-family: "Poppins" !important;
+    font-weight: bold !important;
+    width: 200px !important;
+    color: #261C14 !important;
+    background-color: #AB8C79 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins" !important;
+    color: #261C14 !important;
+}
+
+.mainHeading {
+    letter-spacing: 5px;
+}
+
+.mainCoHeading {
+    letter-spacing: 8px;
+    color: #8C654F !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .navbar-brand img {
+        width: 80px;
+    }
+    
+    .navbar-brand {
+        margin-right: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav-link:hover {
+        background-color: #a18573 !important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
