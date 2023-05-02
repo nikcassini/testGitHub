@@ -1,3 +1,7 @@
+section {
+    padding-top: 100px !important;
+}
+
 .navbar-brand img {
     width: 60px;
 }
@@ -30,6 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 .mainCoHeading {
     letter-spacing: 8px;
     color: #8C654F !important;
+}
+
+.weaponCard {
+    width: 320px;
+    height: 360px;
+    background-color: #AB8C79;
+}
+
+.weaponCardPhoto {
+    width: 260px;
+    height: 260px;
+    background-color: #261C14;
 }
 
 /* Small devices (landscape phones, 576px and up) */
