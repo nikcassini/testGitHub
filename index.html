@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="fonts.css">
 </head>
 <body>
-  <header class="vh-100 pt-5">
+  <header class="min-vh-100 pt-5">
     <nav class="navbar navbar-light navbar-expand-xl py-2 px-4 p-xl-0 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand d-xl-none" href="#">
@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item text-center mx-3 my-2 my-xl-0">
-                <a class="nav-link fs-6 py-3" href="#">Vyběr zbraní</a>
+                <a class="nav-link fs-6 py-3" href="#vyberZbrani">Vyběr zbraní</a>
               </li>
               <li class="nav-item text-center mx-3 my-2 my-xl-0">
                 <a class="nav-link fs-6 py-3" href="#">Bezpečnost</a>
@@ -69,33 +69,50 @@
     </div>
   </header>
 
-  <section class="vh-100">
+  <section class="vh-100" id="vyberZbrani">
     <div class="container">
       <h2 class="display-6 fw-bold text-center mainHeading mb-4">Výběr zbraní</h2>
       <div class="row w-100 mx-auto d-flex justify-content-center">
         <div class="weaponCard m-3 pt-4 d-flex flex-column align-items-center">
-          <div class="weaponCardPhoto mb-4"></div>
+          <div class="weaponCardPhoto mb-4 overflow-hidden p-2">
+            <img src="src/weapons/deagle.jpg" class="w-100" alt="">
+          </div>
           <h3 class="h4 fw-bold mainHeading text-center">Desert Eagle</h3>
         </div>
+
         <div class="weaponCard m-3 pt-4 d-flex flex-column align-items-center">
-          <div class="weaponCardPhoto mb-4"></div>
+          <div class="weaponCardPhoto mb-4 overflow-hidden p-2">
+            <img src="src/weapons/ak47.jpg" class="w-100" alt="">
+          </div>
           <h3 class="h4 fw-bold mainHeading text-center">AK-47</h3>
         </div>
+
         <div class="weaponCard m-3 pt-4 d-flex flex-column align-items-center">
-          <div class="weaponCardPhoto mb-4"></div>
-          <h3 class="h4 fw-bold mainHeading text-center">AAAA</h3>
+          <div class="weaponCardPhoto mb-4 overflow-hidden p-2">
+            <img src="src/weapons/glock.jpg" class="w-100" alt="">
+          </div>
+          <h3 class="h4 fw-bold mainHeading text-center">Glock-18</h3>
         </div>
+
         <div class="weaponCard m-3 pt-4 d-flex flex-column align-items-center">
-          <div class="weaponCardPhoto mb-4"></div>
-          <h3 class="h4 fw-bold mainHeading text-center">AAAA</h3>
+          <div class="weaponCardPhoto mb-4 overflow-hidden p-2">
+            <img src="src/weapons/revolver38.jpg" class="w-100" alt="">
+          </div>
+          <h3 class="h4 fw-bold mainHeading text-center">Revolver .38</h3>
         </div>
+
         <div class="weaponCard m-3 pt-4 d-flex flex-column align-items-center">
-          <div class="weaponCardPhoto mb-4"></div>
-          <h3 class="h4 fw-bold mainHeading text-center">AAAA</h3>
+          <div class="weaponCardPhoto mb-4 overflow-hidden p-2">
+            <img src="src/weapons/ar15.jpg" class="w-100" alt="">
+          </div>
+          <h3 class="h4 fw-bold mainHeading text-center">AR-15</h3>
         </div>
+
         <div class="weaponCard m-3 pt-4 d-flex flex-column align-items-center">
-          <div class="weaponCardPhoto mb-4"></div>
-          <h3 class="h4 fw-bold mainHeading text-center">AAAA</h3>
+          <div class="weaponCardPhoto mb-4 overflow-hidden p-2">
+            <img src="src/weapons/m4.jpg" class="w-100" alt="">
+          </div>
+          <h3 class="h4 fw-bold mainHeading text-center">M4</h3>
         </div>
       </div>
     </div>
