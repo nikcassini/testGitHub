@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .weaponCard {
-    transition: ease-in-out 180ms;
+    transition: ease-in-out 280ms;
     width: 320px;
     height: 360px;
     background-color: #AB8C79;
@@ -50,16 +50,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .weaponCardPhoto img {
-    transition: ease-in-out 200ms;
+    transition: ease-in-out 280ms;
 }
 
 .weaponCard:hover {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    scale: 1.01;
+    scale: 1.005;
 }
 
 .weaponCard:hover .weaponCardPhoto img {
-    scale: 1.1;
+    scale: 1.07;
 }
 
 .fotoSafety {
