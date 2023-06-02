@@ -76,14 +76,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scrollArrow {
-    width: 150px;
-    margin: 50vh auto 0;
-    
-    /* position: absolute;
-    bottom: 0; */
-    
-    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1rem;
+
     animation: scrollAnimate 1000ms ease-in-out 0ms infinite;
+}
+
+.scrollArrow img {
+    width: 150px;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -99,6 +105,10 @@ h1, h2, h3, h4, h5, h6 {
     
     .navbar-brand {
         margin-right: 0;
+    }
+
+    .carousel {
+        bottom: 0;
     }
 }
 
